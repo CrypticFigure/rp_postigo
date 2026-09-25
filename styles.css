@@ -1,3 +1,9 @@
+/* ---------------- Global Font ---------------- */
+
+p {
+    
+}
+
 /* ----------------- Class CSS ----------------- */
 
 .about{
@@ -66,7 +72,7 @@ img.grow {
 }
 
 img.grow:hover {
-    z-index: 1;
+    z-index: 10;
     transform: scale(1.35);
 }
 
@@ -144,10 +150,13 @@ td {
 
 tbody tr {
     filter: brightness(100%);
+    z-index: 0;
     transition: filter 160ms ease-in-out;
+    position: relative;
 }
 
 tbody tr:hover {
+    z-index: 2;
     filter: brightness(94%);
 }
 
