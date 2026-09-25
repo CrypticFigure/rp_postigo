@@ -1,7 +1,17 @@
 /* ---------------- Global Font ---------------- */
 
 p {
-    
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto-Flex', sans-serif;
+}
+
+h4 {
+    font-family: Georgia, serif;
+    font-weight: bold;
 }
 
 /* ----------------- Class CSS ----------------- */
