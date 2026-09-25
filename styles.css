@@ -56,11 +56,17 @@ section {
 
 .overview img {
     border: 3px solid #859a86;
+}
+
+img.grow {
     transform: scale(1);
+    position: relative;
+    z-index: 0;
     transition: transform 0.3s ease-in-out 0.3s;
 }
 
-.overview img:hover {
+img.grow:hover {
+    z-index: 1;
     transform: scale(1.35);
 }
 
@@ -100,6 +106,49 @@ section {
 
 .authors {
     padding-bottom: 15px;
+}
+
+td img {
+    width: 160px;
+}
+
+/*---------------- Procedure & Authors Coloring -----------*/
+.authors {
+    background-color: #afbfb0;
+}
+
+.card-color {
+    background-color: #859a86;
+}
+
+.card-text-color {
+    color: rgb(41, 53, 42);
+}
+
+.procedure {
+    background-color: #afbfb0;
+}
+
+.table-head-color th {
+    background-color: #2b6b4d !important;
+    color: rgb(184, 204, 187);
+}
+
+.table-step-color {
+    background-color: #97bc9a !important;
+}
+
+td {
+    background-color: #c0ddc2 !important;
+}
+
+tbody tr {
+    filter: brightness(100%);
+    transition: filter 160ms ease-in-out;
+}
+
+tbody tr:hover {
+    filter: brightness(94%);
 }
 
 /* ----------------- ID CSS ----------------- */
