@@ -172,17 +172,16 @@ tbody tr:hover {
 
 /* ----------------- ID CSS ----------------- */
 
-/* -----------------Underline Animation CSS -----------------*/
 #chart-wrapper{
+    background-color: #afbfb0;
     margin: auto;
     padding: 10px; 
-    min-height: 400px;
-    background-color: whitesmoke !important;
+    min-height: 650px;
     justify-content: center;
     align-items: center;  
 }
 
-
+/* -----------------Underline Animation CSS -----------------*/
 
 .hover-underline-animation {
     display: inline-block;
