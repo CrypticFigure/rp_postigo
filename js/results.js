@@ -2,7 +2,7 @@
 
 async function getData() {
     // Fetch CSV data and convert to text
-    const response = await fetch('../data/raw-height-data.csv');
+    const response = await fetch('data/raw-height-data.csv');
     const data = await response.text();
 
     // Set up arrays for x-axis values and different condition y values
